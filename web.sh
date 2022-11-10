@@ -15,7 +15,7 @@ echo "Step 7. Change ownership of authorized key"
 chown adminuser:adminuser /home/adminuser/.ssh/authorized_keys
 
 
-
+echo "complete"
 
 
 
