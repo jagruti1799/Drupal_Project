@@ -1,0 +1,10 @@
+[jenkins]
+4.224.81.45 ansible_user=azureuser ansible_connection=ssh ansible_ssh_private_key_file=/home/einfochips/Downloads/jenkins-key.pem
+
+
+; [dbserver]
+; #ip_address_of_dbservers
+; 20.235.16.205 ansible_user=adminuser ansible_connection=ssh ansible_ssh_private_key_file=../Terraform/dbkey.pem
+; [webserver] 
+; #ip_address_of_webservers 
+; 20.235.16.198 ansible_ssh_user=adminuser ansible_connection=ssh ansible_ssh_private_key_file=../Terraform/webkey.pem
